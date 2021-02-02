@@ -1,0 +1,150 @@
+  113  ls
+  114  cd ..
+  115  tree
+  116  cd -
+  117  tree
+  118  tree -d
+  119  ls -lh
+  120  chmod 555 file
+  121  file
+  122  ls
+  123  vim hello.sh
+  124  sudo apt install vim 
+  125  vim hello.sh
+  126  ls 
+  127  cd
+  128  ls
+  129  man chmod
+  130  man ls
+  131  vim hello.sh
+  132  ls
+  133  chmod u+x hello.sh
+  134  ls -l
+  135  ./hello.sh
+  136  vim hello.sh
+  137  chmod o-x day1
+  138  chmod u-x hello.sh
+  139  ls -l
+  140  cho "echo helloworld" >hello.sh
+  141  echo "echo helloworld" >hello.sh
+  142  cat hello.sh
+  143  history |tail -200 >day1_王潇_1.txt
+  144  ls
+  145  cat day1_王潇_1.txt 
+  146  ls -l
+  147  cat hello.sh
+  148  chmod 000 hello.sh
+  149  ls -l
+  150  cat hello.sh
+  151  chmod 775 hello.sh
+  152  ls -l
+  153  cd ~
+  154  ls
+  155  cat /proc
+  156  find . fileDIR -a -type d
+  157  find . -name fileDIR
+  158  cd fileDIR/
+  159  tree
+  160  cd
+  161  find . -name code
+  162  mkdir day2
+  163  ls day2
+  164  mkdir day2/file
+  165  find . -name file
+  166  find . -name file -a type d
+  167  find . -name file -a -type d
+  168  find . -name file -a -type f
+  169  find . -name hello.sh -o -type f
+  170  find ../ -name "*.sh"
+  171  ls
+  172  touch file1
+  173  touch file2
+  174  touch file3
+  175  touch file4
+  176  ls
+  177  find . -name "file*"
+  178  find . -name "file?"
+  179  find . -name "file[1-3]"
+  180  ls
+  181  echo hello >file5
+  182  ls -l
+  183  rm file5
+  184  ls
+  185  ls -l
+  186  f|| echo hello
+  187  ||
+  188  sudo chown root:root file4
+  189  cat file4
+  190  echo heihei>file4
+  191  ls -l
+  192  chmod 667 file4
+  193  chmod 665 file4
+  194  chmod 663 file4
+  195  cat file4
+  196  echo hello>file4
+  197  find . -uid 0
+  198  sudo chown root:root file4
+  199  cat file4
+  200  ls -l
+  201  cd/home
+  202  sudo echo hello >file4
+  203  sudo echo "hello" >file4
+  204  find . -user test
+  205  cd -
+  206  ls
+  207  find . -empty 0
+  208  find . -empty 
+  209  ls
+  210  find . -empty 0
+  211  find . -empty 
+  212  find . -size
+  213  find . -size 0
+  214  find . -type f -size -10k
+  215  find . -type f -size +1b
+  216  find . -type f -name "*.txt" -delete
+  217  find . -type f -user test
+  218  find . -type f -user wx
+  219  find . -user wx
+  220  cd/home
+  221  cd /home
+  222  cd
+  223  pwd
+  224  cd -
+  225  pwd
+  226  find . -perm 666
+  227  ls -l
+  228  find . -perm 755
+  229  cd ..
+  230  find . -size 1
+  231  ls
+  232  cd -
+  233  ls
+  234  cd wx
+  235  ls
+  236  df -h file1
+  237  df -h day2
+  238  ls
+  239  *
+  240  cd fileDIR/
+  241  ls
+  242  find . -size 0
+  243  find . -type f -size -10
+  244  find . -type f -size -1
+  245  find . -type f -size +5
+  246  find . -size 1k
+  247  cd ..
+  248  cd - 
+  249  cd root
+  250  cd ../
+  251  cd
+  252  ls
+  253  cd ../
+  254  cd ..
+  255  find . -name "*.so*"
+  256  find . mmin -2
+  257  find . -mmin -2
+  258  history |tail -150 >day1_王潇.txt
+  259  sudo chmod 707 day1_王潇.txt
+  260  cd
+  261  pwd
+  262  history |tail -150 >day1_王潇.txt
